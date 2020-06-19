@@ -1,0 +1,23 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* The navbar must stretch across the whole page & have a background color set */
+.navbar {
+    width: 100vw;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    background-color: peachpuff;
+}
+/* The items must be arranged horizontally & be placed below the title, which is centered in the middle of the navbar. */
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-item {
+    margin: 30px;
+}
+/* Your goal is to turn basic HTML into a responsive, functional navbar, which includes both arranging the items and styling them. The navbar must stretch across the whole page & have a background color set. The items must be arranged horizontally & be placed below the title, which is centered in the middle of the navbar. Good luck! */
